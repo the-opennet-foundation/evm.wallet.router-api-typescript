@@ -1,4 +1,4 @@
 configured_endpoints: 15
 openapi_spec_url: https://storage.googleapis.com/stainless-sdk-openapi-specs/chainflow%2Fevm.wallet.router-api-b7da19ac750f21f9bc716467dc1a625d3a45e3fe8ca98419ffbd1ead36fbfba5.yml
 openapi_spec_hash: b26f5559ca7afd4eef7e7a50774b66b1
-config_hash: 4f2a16a8bb459cfc50a793b256ebd5f2
+config_hash: 0be1442b4412f9353502815131074471

@@ -8,8 +8,8 @@
     "moduleResolution": "node",
     "esModuleInterop": true,
     "paths": {
-      "evm.wallet.router-api/*": ["./src/*"],
-      "evm.wallet.router-api": ["./src/index.ts"]
+      "@paxeer-network/evm.wallet.router-api/*": ["./src/*"],
+      "@paxeer-network/evm.wallet.router-api": ["./src/index.ts"]
     },
     "noEmit": true,
 

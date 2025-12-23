@@ -1,4 +1,7 @@
-import { createPathTagFunction, encodeURIPath } from 'evm.wallet.router-api/internal/utils/path';
+import {
+  createPathTagFunction,
+  encodeURIPath,
+} from '@paxeer-network/evm.wallet.router-api/internal/utils/path';
 import { inspect } from 'node:util';
 import { runInNewContext } from 'node:vm';
 
