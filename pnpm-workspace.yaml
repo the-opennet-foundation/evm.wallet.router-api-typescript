@@ -2,4 +2,4 @@ onlyBuiltDependencies:
   - '@swc/core'
 minimumReleaseAge: 1440
 minimumReleaseAgeExclude:
-  - evm.wallet.router-api
+  - '@paxeer-network/evm.wallet.router-api'

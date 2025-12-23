@@ -1,6 +1,6 @@
 // File generated from our OpenAPI spec by Stainless. See CONTRIBUTING.md for details.
 
-import { EvmWalletRouterAPI } from 'evm.wallet.router-api';
+import { EvmWalletRouterAPI } from '@paxeer-network/evm.wallet.router-api';
 
 const { stringifyQuery } = EvmWalletRouterAPI.prototype as any;
 

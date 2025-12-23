@@ -1,10 +1,10 @@
 // File generated from our OpenAPI spec by Stainless. See CONTRIBUTING.md for details.
 
-import { APIPromise } from 'evm.wallet.router-api/core/api-promise';
+import { APIPromise } from '@paxeer-network/evm.wallet.router-api/core/api-promise';
 
 import util from 'node:util';
-import EvmWalletRouterAPI from 'evm.wallet.router-api';
-import { APIUserAbortError } from 'evm.wallet.router-api';
+import EvmWalletRouterAPI from '@paxeer-network/evm.wallet.router-api';
+import { APIUserAbortError } from '@paxeer-network/evm.wallet.router-api';
 const defaultFetch = fetch;
 
 describe('instantiate client', () => {
