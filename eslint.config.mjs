@@ -25,7 +25,7 @@ export default tseslint.config(
         {
           patterns: [
             {
-              regex: '^evm.wallet.router-api(/.*)?',
+              regex: '^@paxeer-network/evm.wallet.router-api(/.*)?',
               message: 'Use a relative import, not a package import.',
             },
           ],

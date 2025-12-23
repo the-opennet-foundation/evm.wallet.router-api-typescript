@@ -5,8 +5,8 @@
   "compilerOptions": {
     "rootDir": "./dist/src",
     "paths": {
-      "evm.wallet.router-api/*": ["./dist/src/*"],
-      "evm.wallet.router-api": ["./dist/src/index.ts"]
+      "@paxeer-network/evm.wallet.router-api/*": ["./dist/src/*"],
+      "@paxeer-network/evm.wallet.router-api": ["./dist/src/index.ts"]
     },
     "noEmit": false,
     "declaration": true,
