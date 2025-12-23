@@ -1,6 +1,6 @@
 {
   "name": "@paxeer-network/evm.wallet.router-api",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "The official TypeScript library for the Evm Wallet Router API API",
   "author": "Evm Wallet Router API <dev@paxeer.com>",
   "types": "dist/index.d.ts",
