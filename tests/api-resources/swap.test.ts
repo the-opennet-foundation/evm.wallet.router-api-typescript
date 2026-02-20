@@ -8,7 +8,7 @@ const client = new EvmWalletRouterAPI({
 });
 
 describe('resource swap', () => {
-  // Prism tests are disabled
+  // Mock server tests are disabled
   test.skip('buildApproval: only required params', async () => {
     const responsePromise = client.swap.buildApproval(1, {
       amount: '1000000000',
@@ -25,7 +25,7 @@ describe('resource swap', () => {
     expect(dataAndResponse.response).toBe(rawResponse);
   });
 
-  // Prism tests are disabled
+  // Mock server tests are disabled
   test.skip('buildApproval: required and optional params', async () => {
     const response = await client.swap.buildApproval(1, {
       amount: '1000000000',
@@ -35,7 +35,7 @@ describe('resource swap', () => {
     });
   });
 
-  // Prism tests are disabled
+  // Mock server tests are disabled
   test.skip('buildTransaction: only required params', async () => {
     const responsePromise = client.swap.buildTransaction(1, {
       amountIn: '1000000000000000000',
@@ -52,7 +52,7 @@ describe('resource swap', () => {
     expect(dataAndResponse.response).toBe(rawResponse);
   });
 
-  // Prism tests are disabled
+  // Mock server tests are disabled
   test.skip('buildTransaction: required and optional params', async () => {
     const response = await client.swap.buildTransaction(1, {
       amountIn: '1000000000000000000',
@@ -65,7 +65,7 @@ describe('resource swap', () => {
     });
   });
 
-  // Prism tests are disabled
+  // Mock server tests are disabled
   test.skip('executeTransaction: only required params', async () => {
     const responsePromise = client.swap.executeTransaction(1, {
       signedTransaction: '0xf86c0a8502540be400825208...',
@@ -79,14 +79,14 @@ describe('resource swap', () => {
     expect(dataAndResponse.response).toBe(rawResponse);
   });
 
-  // Prism tests are disabled
+  // Mock server tests are disabled
   test.skip('executeTransaction: required and optional params', async () => {
     const response = await client.swap.executeTransaction(1, {
       signedTransaction: '0xf86c0a8502540be400825208...',
     });
   });
 
-  // Prism tests are disabled
+  // Mock server tests are disabled
   test.skip('getAllowance: only required params', async () => {
     const responsePromise = client.swap.getAllowance(1, {
       owner: '0x2c02efDd09B3BA1AEaDd3dCAa7aC7A37C1CBDA8A',
@@ -102,7 +102,7 @@ describe('resource swap', () => {
     expect(dataAndResponse.response).toBe(rawResponse);
   });
 
-  // Prism tests are disabled
+  // Mock server tests are disabled
   test.skip('getAllowance: required and optional params', async () => {
     const response = await client.swap.getAllowance(1, {
       owner: '0x2c02efDd09B3BA1AEaDd3dCAa7aC7A37C1CBDA8A',
@@ -111,7 +111,7 @@ describe('resource swap', () => {
     });
   });
 
-  // Prism tests are disabled
+  // Mock server tests are disabled
   test.skip('getQuote: only required params', async () => {
     const responsePromise = client.swap.getQuote(1, {
       amountIn: '269125115713',
@@ -127,7 +127,7 @@ describe('resource swap', () => {
     expect(dataAndResponse.response).toBe(rawResponse);
   });
 
-  // Prism tests are disabled
+  // Mock server tests are disabled
   test.skip('getQuote: required and optional params', async () => {
     const response = await client.swap.getQuote(1, {
       amountIn: '269125115713',
@@ -138,7 +138,7 @@ describe('resource swap', () => {
     });
   });
 
-  // Prism tests are disabled
+  // Mock server tests are disabled
   test.skip('getSources', async () => {
     const responsePromise = client.swap.getSources(1);
     const rawResponse = await responsePromise.asResponse();
@@ -150,7 +150,7 @@ describe('resource swap', () => {
     expect(dataAndResponse.response).toBe(rawResponse);
   });
 
-  // Prism tests are disabled
+  // Mock server tests are disabled
   test.skip('getTransactionStatus: only required params', async () => {
     const responsePromise = client.swap.getTransactionStatus(
       '0x1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef',
@@ -165,7 +165,7 @@ describe('resource swap', () => {
     expect(dataAndResponse.response).toBe(rawResponse);
   });
 
-  // Prism tests are disabled
+  // Mock server tests are disabled
   test.skip('getTransactionStatus: required and optional params', async () => {
     const response = await client.swap.getTransactionStatus(
       '0x1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef',

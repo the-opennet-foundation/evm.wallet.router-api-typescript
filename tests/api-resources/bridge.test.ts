@@ -8,7 +8,7 @@ const client = new EvmWalletRouterAPI({
 });
 
 describe('resource bridge', () => {
-  // Prism tests are disabled
+  // Mock server tests are disabled
   test.skip('buildTransaction: only required params', async () => {
     const responsePromise = client.bridge.buildTransaction({
       amountIn: '1000000000000000000',
@@ -28,7 +28,7 @@ describe('resource bridge', () => {
     expect(dataAndResponse.response).toBe(rawResponse);
   });
 
-  // Prism tests are disabled
+  // Mock server tests are disabled
   test.skip('buildTransaction: required and optional params', async () => {
     const response = await client.bridge.buildTransaction({
       amountIn: '1000000000000000000',
@@ -43,7 +43,7 @@ describe('resource bridge', () => {
     });
   });
 
-  // Prism tests are disabled
+  // Mock server tests are disabled
   test.skip('executeTransaction: only required params', async () => {
     const responsePromise = client.bridge.executeTransaction({
       chainId: 1,
@@ -58,7 +58,7 @@ describe('resource bridge', () => {
     expect(dataAndResponse.response).toBe(rawResponse);
   });
 
-  // Prism tests are disabled
+  // Mock server tests are disabled
   test.skip('executeTransaction: required and optional params', async () => {
     const response = await client.bridge.executeTransaction({
       chainId: 1,
@@ -66,7 +66,7 @@ describe('resource bridge', () => {
     });
   });
 
-  // Prism tests are disabled
+  // Mock server tests are disabled
   test.skip('listSources', async () => {
     const responsePromise = client.bridge.listSources();
     const rawResponse = await responsePromise.asResponse();
@@ -78,7 +78,7 @@ describe('resource bridge', () => {
     expect(dataAndResponse.response).toBe(rawResponse);
   });
 
-  // Prism tests are disabled
+  // Mock server tests are disabled
   test.skip('retrieveQuote: only required params', async () => {
     const responsePromise = client.bridge.retrieveQuote({
       amountIn: '269125115713',
@@ -98,7 +98,7 @@ describe('resource bridge', () => {
     expect(dataAndResponse.response).toBe(rawResponse);
   });
 
-  // Prism tests are disabled
+  // Mock server tests are disabled
   test.skip('retrieveQuote: required and optional params', async () => {
     const response = await client.bridge.retrieveQuote({
       amountIn: '269125115713',
